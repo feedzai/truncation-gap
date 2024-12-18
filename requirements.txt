@@ -1,0 +1,6 @@
+numpy==1.25.1
+scipy==1.11.1
+pandas==2.0.3
+jaxlib==0.4.7
+jax==0.4.8
+optax==0.1.5

@@ -34,7 +34,7 @@ new_data_state, (edge_src, edge_dst, edge_feat, edge_target) = step_data(initial
 new_data_state, (edges_src, edges_dst, edges_feat, edges_target) = lax.scan(step_data, initial_data_state, None, 1000)
 ```
 
-# Running the Synthetic Task Experiments
+# Running the synthetic task experiments
 
 Install dependencies (with python >= 3.9):
 
